@@ -8,7 +8,7 @@ header {
 	padding: 20px;
 	display: block;
 	margin: 2px;
-	background-color: orange;
+	/*background-color: orange;*/
 
 }
 aside {
@@ -20,18 +20,18 @@ aside {
 	height: 200px;
 	display: block;
 	margin: 2px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 section {
 	border: 2px solid;
 	color:navy;
 	padding: 20px;
 	float:right;
-	width: 72%;
+	width: 70%;
 	height: 200px;
 	display: block;
 	margin: 2px;
-	background-color: navy;
+	/*background-color: navy;*/
 }
 footer {
 	border: 2px solid;
@@ -40,5 +40,30 @@ footer {
 	display: block;
 	clear: both;
 	margin: 2px;
-	background-color: green;
+	/*background-color: green;*/
+}
+
+.logo {
+	border: 2px solid;
+	color:pink;
+	padding: 20px;
+	display: block;
+	float:left;
+}
+nav.logo {
+	
+	color:red;
+	float:right;
+}
+.logo:before
+.logo:after {
+	content:"";
+	display: table;
+
+}
+.logo:after {
+	clear: both;
+}
+.logo {
+	clear:both;
 }
