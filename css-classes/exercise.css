@@ -1,0 +1,44 @@
+body {
+	background-color: #FFDBB8;
+}
+
+header {
+	border: 2px solid;
+	color:orange;
+	padding: 20px;
+	display: block;
+	margin: 2px;
+	background-color: orange;
+
+}
+aside {
+	border: 2px solid;
+	color: yellow;
+	padding: 20px;
+	float:left;
+	width: 20%;
+	height: 200px;
+	display: block;
+	margin: 2px;
+	background-color: yellow;
+}
+section {
+	border: 2px solid;
+	color:navy;
+	padding: 20px;
+	float:right;
+	width: 72%;
+	height: 200px;
+	display: block;
+	margin: 2px;
+	background-color: navy;
+}
+footer {
+	border: 2px solid;
+	color:green;
+	padding: 20px;
+	display: block;
+	clear: both;
+	margin: 2px;
+	background-color: green;
+}
