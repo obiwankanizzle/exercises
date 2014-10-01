@@ -10,6 +10,14 @@
 	width: 100%;
 	
 }
+.header:after {
+	content: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia deserunt ab, necessitatibus voluptatibus rerum similique sed perspiciatis vero libero animi. Numquam dignissimos, qui illum doloribus hic est officiis, culpa quam.";
+  border:1px solid black;
+  display: block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 .logo {
 	float: left;
 	
@@ -28,12 +36,26 @@
 	
 	}
 .post:after {
-	
+	content: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia deserunt ab, necessitatibus voluptatibus rerum similique sed perspiciatis vero libero animi. Numquam dignissimos, qui illum doloribus hic est officiis, culpa quam.";
+  border:1px solid black;
+  display: block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+
 }
+.post_excerpt {
+float: right;
+
+}
+
 /* hint! */
 
 .image {
-	
+	height: 100px;
+	width: 100px;
+	float: left;
+
 }
 
 
