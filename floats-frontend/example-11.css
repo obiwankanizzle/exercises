@@ -7,39 +7,34 @@
 
 .header {
 	float: left;
-	width:100%;
+	width: 100%;
+	
 }
 .logo {
 	float: left;
+	
 }
 .navigation {
 	float: right;
+	
 }
 .main-content {
+	clear: both;
+	
 }
 /* hint! */
 
 .post {
-}
+	
+	}
 .post:after {
-	display: block;
-	content: "";
-	clear: both;
+	
 }
 /* hint! */
 
 .image {
-	float: left;
-	width: 25%;
-}
-.image img {
-	min-height: 200px;
-	max-height: 300px;
+	
 }
 
-.post_excerpt {
-	float: left;
-	width: 75%;
-	min-height: 200px;
 
-}
+
