@@ -16,7 +16,7 @@
 
 .sidebar {
 	float: right;
-	width: 250px;
+	width: 350px;
 	height:250px;
 }
 
@@ -31,8 +31,8 @@
 }
 
 
-div {
+/*div {
 	margin: 20px;
-}
+}*/
 
 /* uncomment me to see if you missed anything! */
