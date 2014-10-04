@@ -1,3 +1,0 @@
-MakerSquare Front-End Projects
-=================
-
