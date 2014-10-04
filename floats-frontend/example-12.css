@@ -4,41 +4,67 @@
 /* ---------------------------------------------------------- */
 
 /* Example 12 */
-
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
 /* To Do List */
 .todolist {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
+	width: 400px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+	border: 1px solid grey;
 }
 
 /* Individual Todo */
 .todo {
+	width:80%;
+	border-bottom: 1px solid grey;
 	
+	margin: 0 auto;
+	padding: 6px;
+	padding-top: 10px;
 }
-
+.todo:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
 
 
 
 /* Priority icon dot */
 .icon {
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	float: left;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	
 }
 
 /* Info of the todo, title and date */
 .todo-info {
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 	float: left;
 }
 
 /* Title */
 .todo-title {
-	border: 1px solid blue;
+	font-size: 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /* Date */
 .todo-date {
-	border: 1px solid black;
-}
+	/*border: 1px solid black;
+*/}
 
 /* Checkboxes! */
 input[type=checkbox] {
@@ -46,7 +72,11 @@ input[type=checkbox] {
 }
 .check {
 	float: right;
+	padding-top: 10px;
+	
 }
 
-
+.container {
+	background-color: #0099FF;
+}
 
